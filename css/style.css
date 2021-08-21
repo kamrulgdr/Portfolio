@@ -701,7 +701,7 @@ Responsive CSS
   }
 
   .hero .right h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
   }
 
@@ -746,18 +746,21 @@ Responsive CSS
 @media (max-width:576px) {
   .hero {
     flex-direction: column;
-  }
+    padding-bottom: 4rem;
+}
 
+
+  
   .header {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 69% 95%, 0 100%);
   }
 
   .hero .right {
     position: absolute;
-    top: 111px;
+    top: 100px;
     padding: 0 1rem;
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9))
-  }
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9));
+}
 
   .hero .left {
     margin-top: 0rem;
@@ -784,7 +787,8 @@ Responsive CSS
 
   section.services .card-wrapper {
     grid-template-columns: repeat(1, 1fr);
-  }
+    margin-top: 6rem;
+}
 
   section.freelancer h1 {
     line-height: 1.2;
@@ -821,3 +825,5 @@ Responsive CSS
   }
 
 }
+
+
